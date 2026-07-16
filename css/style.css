@@ -66,10 +66,12 @@ nav {
     padding-bottom: 4px;
     
 }
-
+.nav__links {
+    display: none;
+}
 
 .btn__menu {
-    display: none;
+    display: block;
     background: transparent;
     border: none;
     transition: all 300ms ease;
