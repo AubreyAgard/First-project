@@ -76,10 +76,9 @@ nav {
         font-weight: 600;
         line-height: 2.0;
         margin-left: 60px;
-        position: absolute;
     }
 .nav__links {
-    display: none;
+    display: flex;
 }
 
 .btn__menu {
@@ -176,14 +175,13 @@ header .row {
     font-weight: 400;
     line-height: 1.5;
     margin-bottom: 24px;
-    position: absolute;
 }
 .about__img {
     position: relative;
     right: 0;
     bottom: 0;
     width: 50%;
-    max-width: 50px;
+    max-width: 100px;
     height: auto;
 }
 
