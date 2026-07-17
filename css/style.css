@@ -81,6 +81,17 @@ nav {
     display: flex;
 }
 
+.nav__link ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    align-items: center;
+}
+
+.nav__link a {
+    text-decoration: none;
+}
+
 .btn__menu {
     display: block;
     background: transparent;
@@ -170,12 +181,6 @@ header .row {
     position: relative;
 }
 
-.about__text {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    margin-bottom: 24px;
-}
 .about__img {
     position: relative;
     right: 0;
