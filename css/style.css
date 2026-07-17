@@ -64,8 +64,20 @@ nav {
     align-items: center;
     margin: 8px 0;
     padding-bottom: 4px;
-    
 }
+
+ .nav__logo--img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .nav__text {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 2.0;
+        margin-left: 60px;
+        position: absolute;
+    }
 .nav__links {
     display: none;
 }
@@ -149,6 +161,30 @@ header .row {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.about__title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.about__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 24px;
+    position: absolute;
+}
+.about__img {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    max-width: 50px;
+    height: auto;
 }
 
 
