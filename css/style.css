@@ -60,7 +60,6 @@ nav {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .nav__logo {
@@ -101,6 +100,7 @@ nav {
 @media (max-width: 640px) {
   nav {
     padding-top: 24px;
+    
   }
 }
 
@@ -130,6 +130,7 @@ nav {
 
 .btn__menu {
     display: none;
+    margin-left: auto;
 }
 
 .btn__menu--svg:hover {
