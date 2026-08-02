@@ -1120,6 +1120,25 @@ MOBILE RESPONSIVE
 =====================================
 */
 
+@media (max-width: 1024px) {
+
+    .nav__links {
+        display: none;
+    }
+
+    .signup-btn {
+        display: none;
+    }
+
+    .btn__menu {
+        display: block;
+        margin-left: auto;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+    }
+}
+
 @media (max-width: 768px) {
 
     .quality__top,
