@@ -670,19 +670,20 @@ PRICING ↓
     margin-bottom: 16px;
 }
 
-
 .pricing__text h1 {
     font-size: 36px;
     margin-bottom: 24px;
 }
 
+.pricing__text h1 span {
+    color: #6415ff;
+}
 
 .pricing__text p {
     color: #7c8ba1;
     font-size: 16px;
     line-height: 1.6;
 }
-
 
 
 /* CARDS */
@@ -706,6 +707,62 @@ PRICING ↓
 
 /* CARD SECTIONS */
 
+/* PERSONAL CARD */
+
+.pricing__card--personal .pricing__card-top {
+    border-top: 6px solid #0db57a7f;
+}
+
+.pricing__card--personal button {
+    background-color: #0db57a7f;
+}
+
+
+/* BUSINESS CARD */
+
+.pricing__card--business {
+    background: linear-gradient(
+        135deg,
+        #667eea,
+        #764ba2
+    );
+}
+
+.pricing__card--business h2,
+.pricing__card--business h1,
+.pricing__card--business p,
+.pricing__card--business li {
+    color: white;
+}
+
+.pricing__card--business .pricing__card-middle {
+    border-color: rgba(255,255,255,0.3);
+}
+
+.pricing__card--business button {
+    background-color: white;
+    color: #4c6fff;
+}
+
+/* BUSINESS TEXT COLORS */
+
+.pricing__card--business .pricing__card-top h2,
+.pricing__card--business .pricing__card-top h1,
+.pricing__card--business .pricing__card-top p,
+.pricing__card--business .pricing__card-middle li {
+    color: white;
+}
+
+/* ENTERPRISE CARD */
+
+.pricing__card--enterprise .pricing__card-top {
+    border-top: 6px solid #dd6b20;
+}
+
+.pricing__card--enterprise button {
+    background-color: #dd6b20;
+}
+
 .pricing__card-top {
     padding: 35px 30px;
     text-align: center;
@@ -713,8 +770,8 @@ PRICING ↓
 
 
 .pricing__card-top h2 {
-    color: #6415ff;
-    font-size: 24px;
+    color: #243e63;
+     font-size: 24px;
     margin-bottom: 20px;
 }
 
@@ -775,13 +832,29 @@ PRICING ↓
     box-shadow: 0 8px 15px rgba(0,0,0,0.15);
 }
 
+/* PERSONAL BUTTON */
 
-
-/* FEATURED BUSINESS CARD */
-
-.pricing__card--popular {
-    border-top: 6px solid #6415ff;
+.pricing__card--personal button {
+    background-color: #38a169;
+    color: white;
 }
+
+
+/* BUSINESS BUTTON */
+
+.pricing__card--business button {
+    background-color: white;
+    color: #6415ff;
+}
+
+
+/* ENTERPRISE BUTTON */
+
+.pricing__card--enterprise button {
+    background-color: #dd6b20;
+    color: white;
+}
+
 
 /* 
 
