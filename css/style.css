@@ -270,28 +270,32 @@ header .row {
 .about__description p {
     color: #7c8ba1;
     font-size: 18px;
-    font-weight: 400;
     line-height: 1.6;
+    max-width: 500px;
 }
 
 .about__description h1 span {
     color: #6415ff;
 }
 
-.about__img {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 50%;
-    max-width: 700px;
-    margin-left: 100px;
-    
+.about__description h1 {
+    font-size: 48px;
+    line-height: 1.25;
+    font-weight: 700;
+    max-width: 600px;
 }
 
+    .about__img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+
 .about__img img {
-    transform: translate(-100px, 50px);
-    width: 130%;
-    max-width: 680px;
+    width: 100%;
+    max-width: 650px;
 }
 
 .trusted__description {
